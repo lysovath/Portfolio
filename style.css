@@ -67,11 +67,17 @@ li a{
     width: 100%;
     object-fit: contain;
 }
-#achievement{
-    background-color: grey;
+.achievement{
     width:80%;
     display:flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: grey;
+    border-radius: 20px;
+    padding : 50px 100px;
+}
+#achievementCard{
+    display:flex;
+    justify-content: space-between;
     padding:50px 100px;
     border-radius: 20px;
 }
