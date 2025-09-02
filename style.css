@@ -67,3 +67,29 @@ li a{
     width: 100%;
     object-fit: contain;
 }
+#achievement{
+    background-color: grey;
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    padding:50px 100px;
+    border-radius: 20px;
+}
+.card{
+    background-color: hsl(0, 0%, 71%);
+    padding: 10px;
+    width: 22%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    border-radius: 30px;
+}
+.card img{
+    width:100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.card p{
+    font-size: 1.2rem;
+}
